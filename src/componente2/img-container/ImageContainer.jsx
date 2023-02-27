@@ -4,7 +4,6 @@ import "./ImgContainer.css";
 //components
 import Images from "../photos/Images";
 //fake data
-import photos from "../mocks/data.json";
 import InfiniteScroll from "react-infinite-scroll-component";
 import ImagesRandom from "../photos/ImagesRandom";
 import { contexto } from "../contexto/DataContext";
@@ -34,9 +33,9 @@ const ImageContainer = () => {
     //   animate={{ y: "5px" }}
     // >
     <motion.div
-      initial={{ y: "-100px" }}
-      transition={{ type: "spring", stiffness: 200 }}
-      animate={{ y: "5px" }}
+      initial={{ y: "-200px" }}
+      transition={{ type: "spring", stiffness: 600 }}
+      animate={{ y: "15px" }}
       
     >
       <div className="img-container">
@@ -47,8 +46,8 @@ const ImageContainer = () => {
             hasMore={true}
             next={() => setPage(page + 1)}
           >
-            {photos.map((photo) => {
-              return <Images key={photo.id} photo={photo} />;
+            {photos.map((photo,index) => {
+              return <Images key={index} photo={photo} />;
               // {console.log(photo)}
             })}
           </InfiniteScroll>

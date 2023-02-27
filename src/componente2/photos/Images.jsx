@@ -1,3 +1,4 @@
+//hooks
 import React, { useContext, useState, useEffect } from "react";
 import { contexto } from "../contexto/DataContext";
 // import photos from "../mocks/data.json";
@@ -23,24 +24,7 @@ const Images = ({ photo }) => {
     fetchImgsTags();
   }, [valorTag, pageTag]);
 
-  const {
-    photos,
-    seachValue,
-    loading,
-    photosRandom,
-    variable,
-    page,
-    setSearchValue,
-    setSearchValueTag,
-    setPage,
-    searchImages,
-    // valorTag,
-    // pageTag,
-    // photosTags,
-    // setphotosTags,
-    // setPageTag,
-    // setValorTag,
-  } = useContext(contexto);
+  const { setSearchValueTag } = useContext(contexto);
   // console.log(photos)
   return (
     <>

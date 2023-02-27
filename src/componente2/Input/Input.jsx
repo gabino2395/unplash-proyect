@@ -1,14 +1,12 @@
+//hooks
 import React, { useContext } from "react";
+//context
 import { contexto } from "../contexto/DataContext";
+//componentes
 import "./Input.css";
 const Input = () => {
   const {
-    photos,
-    seachValue,
-    loading,
-    photosRandom,
-    variable,
-    page,
+  
     setSearchValue,
     searchImages,
 

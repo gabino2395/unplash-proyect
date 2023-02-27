@@ -7,6 +7,7 @@ const ImagesRandom = ({photo}) => {
     <h5 className=" img-texts font-3-italic">
       {/* {photo.alt_description.toUpperCase()[0] +
         photo.alt_description.substring(1)} */}
+        {photo.alt_description}
     </h5>
     <h5 className="font-7 img-texts">
       Camara:
@@ -16,7 +17,7 @@ const ImagesRandom = ({photo}) => {
       Location:
       <span className="font-3 img-texts">{photo.location.name? photo.location.name:"no disponible"}</span>
     </h5>
-    {/* <p className="img-texts">Tags:{photo.tags[0].title} <br /> {photo.tags[1].title}</p> */}
+  
   </div>
   )
 }

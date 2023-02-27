@@ -1,6 +1,5 @@
 .search-input-main {
-  /* width: 100%; */
-  /* border: solid; */
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,11 +35,8 @@
   color: var(--violet);
 }
 
-/* .main-input:focus{
-} */
 .main-input:focus {
   border: 0px;
-  /* background-color: transparent; */
   border-color: red;
   color: var(--violet);
   outline: var(--violet);

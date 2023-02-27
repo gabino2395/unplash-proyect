@@ -1,15 +1,15 @@
+//hooks
 import React, { useContext } from "react";
+//components
 import ImageContainer from "../img-container/ImageContainer";
 import Input from "../Input/Input";
+//css
 import "./unplash.css"
+//context
 import { contexto } from "../contexto/DataContext";
 const Unplash = () => {
   const {
     photos,
-    seachValue,
-    loading,
-    photosRandom,
-    variable,
     page,
   } = useContext(contexto);
 

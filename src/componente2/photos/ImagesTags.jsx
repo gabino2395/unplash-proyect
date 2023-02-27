@@ -1,29 +1,11 @@
+//hooks
 import React, { useContext } from "react";
+//context
 import { contexto } from "../contexto/DataContext";
 
 const ImagesTags = ({ photo }) => {
   const {
-    photos,
-    photosRandom,
-    photosTags,
-
-    seachValue,
-    seachValueTag,
-    setSearchValue,
     setSearchValueTag,
-
-    page,
-    setPage,
-    pageRandom,
-    setPageRandom,
-    pageTag,
-    setPageTag,
-
-    loading,
-    variable,
-    //functions
-    searchImages,
-    fetchTags,
   } = useContext(contexto);
   return (
     <div className="img-box">
