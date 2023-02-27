@@ -22,7 +22,7 @@ Para la creacion de este proyecto se utilizo:
 
 Se puede ver el proyecto aqui:
 
-[Unplash Proyect](https://gabino2395.github.io/Todo-app/)
+[Unplash Proyect](https://gabino2395.github.io/unplash-proyect/)
 
 
   

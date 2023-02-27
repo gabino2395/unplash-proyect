@@ -42,7 +42,7 @@ const Images = ({ photo }) => {
         <div className="img-box-items">
           <div className="items-box">
             <h5 className="font-7 img-texts">
-              Camara: no disponible
+              Camera:not found{" "}
               {/* <span className="font-3 img-texts">{photo.exif.name}</span> */}
             </h5>
             <h5 className="font-7 img-texts">
