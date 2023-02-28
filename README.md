@@ -19,7 +19,8 @@ Para la creacion de este proyecto se utilizo:
 - [React]
 - [node.js] 
 - [vite]
-
+- [react-infinite-scroll-component]
+- [framer-motion]
 Se puede ver el proyecto aqui:
 
 [Unplash Proyect](https://gabino2395.github.io/unplash-proyect/)
